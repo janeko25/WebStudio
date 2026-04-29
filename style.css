@@ -38,10 +38,9 @@ a {
 /* ===== HEADER ===== */
 .header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    justify-content: space-between;
+    padding: 20px 100px;
 }
 
 /* LOGO */
@@ -61,20 +60,14 @@ a {
 .header-nav {
     display: flex;
     align-items: center;
-    gap: 50px;
-}
+    gap: 93px;
+    }
 
 .header-nav-list {
     display: flex;
     gap: 30px;
 }
 
-.header-nav-link {
-    font-weight: 500;
-    transition: color 0.3s;
-}
-
-/* CONTACTS */
 .header-contacts-list {
     display: flex;
     gap: 20px;
@@ -128,7 +121,7 @@ a {
 }
 
 .features-item {
-    width: 25%;
+    flex: 1;
 }
 
 .features-title {
@@ -158,7 +151,7 @@ a {
 }
 
 .work-item {
-    width: 33.333%;
+    flex: 1;
 }
 
 .work-image {
@@ -185,7 +178,7 @@ a {
 }
 
 .team-item {
-    width: 25%;
+    flex: 1;
     background-color: white;
     text-align: center;
     padding-bottom: 20px;
